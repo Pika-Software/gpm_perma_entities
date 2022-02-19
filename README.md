@@ -1,7 +1,7 @@
 # gpm_perma_entities
  A small package for creating persistent entities on the map.
 
-## Example
+## Example #1
 ```lua
 if SERVER then
 
@@ -13,6 +13,13 @@ if SERVER then
 
         return ball
     end, true)
+
+end
+```
+
+## Example #2
+```lua
+if SERVER then
 
     perma.add( "little_bomb_class", "sent_ball", true, Vector( 0, 0, 100 ), Angle( 0, 90, 0 ) )
 
