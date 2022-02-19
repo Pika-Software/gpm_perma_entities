@@ -10,7 +10,7 @@ if SERVER then
         ball:Spawn()
         ball:Activate()
 
-        return ball
+        return ball -- Very important return!!!!
     end, true)
 end
 ```
