@@ -18,3 +18,15 @@ if SERVER then
 
 end
 ```
+
+## Functions
+
+```lua
+perma.add( id, class, respawnable, pos, ang ) -- Add perma entity spawn point
+```
+
+id `string` | class `string or function` | pos `vector` | ang `angle or nil`
+
+```lua
+perma.remove( id ) -- Remove perma entity spawn point
+```
